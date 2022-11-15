@@ -62,14 +62,18 @@ Element 是基于 Vue 实现的一套不依赖业务的 UI 组件库，提供了
 3. TypeScript：网页编程  
 TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。向JavaScript添加静态类型，您可以避免经典的错误 'undefined' is not a function.在不严重破坏代码的情况下，重构代码更容易。使大型、复杂的应用程序源码更易阅读。
 4. Axios：前端与服务器通信使用的框架  
-前端通信框架，因为vue的边界很明确，就是为了处理DOM，所以并不具备通信功能，此时就需要额外使用一个通信框架与服务器交互.
+前端通信框架，因为vue的边界很明确，就是为了处理DOM，所以并不具备通信功能，此时就需要额外使用一个通信框架与服务器交互.j
+![Demo Front 01](fig/demo_front01.png)
+![Demo Front 02](fig/demo_front02.png)
 ### 后端子系统
 后端技术栈：Apache + CGICC + MySQL
 1. [Apache](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview)：web服务器.  
 在Ubuntu20.04系统上利用Apache配置服务器，解析HTTP报文
-3. CGICC
+2. CGICC
 在C++中调用[cgicc](https://www.gnu.org/software/cgicc/index.html)开源库编写CGI程序，部署在服务器上. 
-5. MySQL  
+3. MySQL
+![Demo API 01](fig/demo_api01.png)
+![Demo API 02](fig/demo_api02.png)
 ## 系统架构
 1. B/S架构  
 客户端使用通用的浏览器代替各种应用软件，服务器则为Web服务器。浏览器和服务器之间通过TCP/IP通信协议进行连接，浏览器发出请求，由Web服务器向后台取出数据进行计算，并将结果返回给浏览器。
@@ -79,6 +83,7 @@ B端和S端从技术体系角度而言异构性很大，换而言之就是B端�
 前端使用vue-router构建单页面应用，总共有Home，Map，Data三个组件，Home为应用主界面，在Home组件中切换路由来分别展示Map，Data，同时通过使用路由懒加载优化性能。 
 后端在Ubuntu20.04系统上利用Apache搭建服务器，解析HTTP请求，调用CGI后端程序实现业务逻辑，用MySQL实现网络存储单元。 
 项目总架构为前后端分离，前后端使用json数据格式进行通信。项目全程使用github进行代码托管，使用Poatman进行接口测试。 
+![Framework](fig/framework.png)
 ## 任务分工
 |姓名|分工|
 |:---|:---|
