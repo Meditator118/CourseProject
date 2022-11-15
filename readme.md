@@ -1,6 +1,39 @@
 # 室内行人定位轨迹的校正与可视化B/S系统
-华中科技大学《软件课程设计》中期报告
----
+<h1 align="center">华中科技大学《软件课程设计》中期报告</h1>
+<table border="1" align="center">
+	<tr>
+		<th>实验名称</th>
+		<th colspan="3">室内行人定位轨迹的校正方法与可视化系统的设计与开发</th>
+	</tr>
+ <tr>
+  <td>院（系）</td>
+  <td colspan="3">电子信息与通信学院</td>
+ </tr>
+ <tr>
+  <td>专业班级</td>
+  <td colspan="3">提高2001班</td>
+ </tr>
+ <tr>
+  <td>姓名</td>
+  <td>胡志杰</td>
+  <td>蒋艺</td>
+  <td>王李懿</td>
+ </tr>
+ <tr>
+  <td>学号</td>
+  <td>U202013833</td>
+  <td>U202013834</td>
+  <td>U202013850</td>
+ </tr>
+<tr>
+  <td>时间</td>
+  <td colspan="3"></td>
+ </tr>
+ <tr>
+  <td>指导老师</td>
+  <td colspan="3">王邦</td>
+ </tr>
+</table>
 
 ## 项目名称
 名称：室内行人定位轨迹的校正方法与可视化系统的设计与开发。  
@@ -33,8 +66,8 @@ TypeScript是一种由微软开发的自由和开源的编程语言。它是Java
 ### 后端子系统
 后端技术栈：Apache + CGICC + MySQL
 1. [Apache](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview)：web服务器.  
-在Ubuntu20.04系统上利用Apache搭建服务器，解析HTTP报文
-3. CGICC  
+在Ubuntu20.04系统上利用Apache配置服务器，解析HTTP报文
+3. CGICC
 在C++中调用[cgicc](https://www.gnu.org/software/cgicc/index.html)开源库编写CGI程序，部署在服务器上. 
 5. MySQL  
 ## 系统架构
