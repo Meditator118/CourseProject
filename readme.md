@@ -2,8 +2,8 @@
 <h1 align="center">华中科技大学《软件课程设计》中期报告</h1>
 <table border="1" align="center">
 	<tr>
-		<th>实验名称</th>
-		<th colspan="3">室内行人定位轨迹的校正方法与可视化系统的设计与开发</th>
+		<td>实验名称</td>
+		<td colspan="3">室内行人定位轨迹的校正方法与可视化系统的设计与开发</td>
 	</tr>
  <tr>
   <td>院（系）</td>
